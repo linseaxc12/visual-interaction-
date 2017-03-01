@@ -1,5 +1,6 @@
 *{
     font-family: brandon-grotesque, 'Open Sans', sans-serif;
+    letter-spacing: 2px;
 }
 
 
@@ -168,7 +169,9 @@ main {
 }
 	#slide-3 h2 {
 		color: #f2ead6;
+        text-decoration: no underline;
 		background-color: rgba(0,0,0,0.6);
+
 	}
 
 /* Slide 4 */
