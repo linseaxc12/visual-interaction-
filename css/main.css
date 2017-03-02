@@ -1,5 +1,5 @@
 *{
-    font-family: brandon-grotesque, 'Open Sans', sans-serif;
+    font-family: brandon-grotesque, 'brandon grotesque', sans-serif;
     letter-spacing: 2px;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #5C677A;
     text-shadow: none;
 }
 
@@ -93,6 +93,11 @@ section {
 main {
 	overflow-x: hidden;
 }
+
+#box{
+    position:absolute;
+    color: #5C677A;
+}
 #preload {
 	width: 1px;
 	height: 1px;
@@ -100,12 +105,11 @@ main {
 	position: absolute;
 	top: 0;
 	left: 0;
-    background-color: black;
+    background-color: #5C677A;
 }
 .bcg {
 	background-position: center center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
@@ -125,6 +129,7 @@ main {
 	left: 50%;
 	top: 50%;
 }
+
 	.hsContent h2  {
 		color: #fff8de;
 		background-color: rgba(0,0,0,0.5);
@@ -142,9 +147,14 @@ main {
 		text-decoration: underline;
 	}
 
+
 /* Slide 1 */
 /*#slide-1 .bcg {background-image:url('../img/drought.jpg')}*/
-#slide-1 .bcg {background-color:black;}
+#slide-1 .bcg {
+    background:url('../img/MainHeader.png');
+    width:100px;
+    height:200px;
+}
 #slide-1 .hsContent {
 	bottom: 200px;
 	top: auto;
@@ -155,15 +165,20 @@ main {
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-image:url('../img/drought.jpg')}
+#slide-2 .bcg {background-color:#454651;
+   
+
+}
 #slide-2 .hsContent {
 	margin-left: -450px;
 	bottom: 200px;
 	top: auto;
 }
+#slide-2 #box1{color:#5C677A;
+z-index:10;}
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/almond.bmp')}
+#slide-3 .bcg {background-color:#454651;}
 #slide-3 .hsContent {
 	margin-left: -239px;
 }
@@ -175,7 +190,7 @@ main {
 	}
 
 /* Slide 4 */
-#slide-4 .bcg {background-image:url('../img/res2.jpg')}
+#slide-4 .bcg {background-color:#454651;}
 #slide-4 .hsContent {
 	margin-left: -650px;
 
@@ -273,7 +288,7 @@ main {
         text-shadow: none !important;
     }
 
-    a,
+  /*  a,
     a:visited {
         text-decoration: underline;
     }
@@ -291,7 +306,7 @@ main {
     a[href^="#"]:after {
         content: "";
     }
-
+*/
     pre,
     blockquote {
         border: 1px solid #999;
