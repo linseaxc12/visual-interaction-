@@ -25,26 +25,34 @@ html, body{
 
 .fullwidth1{
    width: 100%;
-  height: 1000px;
+  height: 700px;
   box-shadow: 0 22px 54px 0 rgba(0,0,0,0.50);
+  background-color: #E6E6E6;
 
 }
 
 #box1{
   width:300px;
   height:300px;
-  background-color: red;
+  background-color: #D8D8D8;
   top: 200px;
-  margin-left:90px;
+  margin-left:180px;
   position:relative;
 }
 #box2{
   width:300px;
   height:300px;
-  background-color: red;
-  top: -200px;
-  margin-left:590px;
+  background-color: #D8D8D8;
+  top: -100px;
+  margin-left:570px;
   position:relative;
 }
-
+#box3{
+  width:300px;
+  height:300px;
+  background-color: #D8D8D8;
+  top: -400px;
+  margin-left:960px;
+  position:relative;
+}
 
