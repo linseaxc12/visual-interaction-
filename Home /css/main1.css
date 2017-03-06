@@ -3,12 +3,17 @@
 *::-webkit-scrollbar { 
   display: none;
 }
+* {
+   font-family: "brandon-grotesque", sans-serif;
+
+}
 
 html, body{
 	margin: 0;
   height: 5000px;
   background: #5c677a;
   background-size:  cover;
+  opacity:;
 }
 
 
@@ -21,6 +26,7 @@ html, body{
   width: 100%;
   height: auto;
   box-shadow: 0 22px 54px 0 rgba(0,0,0,0.50);
+
 }
 
 .fullwidth1{
@@ -28,6 +34,7 @@ html, body{
   height: 700px;
   box-shadow: 0 22px 54px 0 rgba(0,0,0,0.50);
   background-color: #E6E6E6;
+
 
 }
 
@@ -55,4 +62,81 @@ html, body{
   margin-left:960px;
   position:relative;
 }
+.fullwidth2{
+   width: 100%;
+  height: 500px;
 
+  position:relative;
+}
+
+#almond {
+width:30%;
+height:200px;
+margin-left: 280px;
+margin-top:290px;
+}
+
+.button {
+    width:170px;
+    height:33px;
+    border:3px;
+    border-style: solid;
+    border-color:white;
+    border-radius: 19px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 280px;
+    cursor: pointer;
+    position:absolute;
+    padding-top: 11px;
+    letter-spacing: 2px;
+}
+.button:hover {
+    width:170px;
+    height:33px;
+    border:3px;
+    border-style: solid;
+    border-color:white;
+    background-color: white;
+    border-radius: 19px;
+    color: #5c677a;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 100px 280px;
+    cursor: pointer;
+    position:absolute;
+    letter-spacing: 2px;
+}
+
+.imgA{
+  width:600px;
+  height:300px;
+  margin-left:900px;
+  margin-top: -300px;
+  mix-blend-mode: multiply;
+}
+
+
+h1{
+ font-family:"brandon-grotesque", sans-serif;
+ color:white;
+}
+h3{ 
+font-family:"brandon-grotesque",sans-serif;
+font-size:20px;
+line-height: 25px;
+color:white;
+font-weight: normal;
+}
+.fullwidth3{
+   width: 100%;
+  height: 700px;
+ 
+  background-color: #E6E6E6;
+
+}
