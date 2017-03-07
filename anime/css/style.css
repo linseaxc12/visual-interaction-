@@ -45,7 +45,7 @@ html, body{
 	border-radius:10px;
 	color:red;
 	position:absolute;
-  animation: blinker 0.5s linear infinite;
+    animation: blinker 0.5s linear infinite;
 }
 
 
