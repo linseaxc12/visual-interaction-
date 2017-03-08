@@ -10,11 +10,19 @@
 
 html, body{
 	margin: 0;
-  height: 5000px;
+  height: 700px;
  }
+ @-webkit-keyframes blinker {
+   from { transform: scale(0.5);  }
+   to   { transform: scale(2.0);
+		   opacity:0;}
+  
+
+}
+
 
 #heading{
-	margin-left: -60px;
+	margin-left: -10px;
 
 }
 
@@ -22,7 +30,7 @@ html, body{
 	width:100%;
 	height:700px;
 	background-color: white;
-	z-index:-10;
+	z-index:10;
 	position:absolute;
 
 }
@@ -32,7 +40,7 @@ html, body{
 	width:860px;
 	height:600px;
 	margin-left: 280px;
-	z-index:-5;
+	z-index:5;
 	position:absolute;
 }
 
@@ -49,12 +57,13 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 810.5px;
 	margin-top: 210px;
 }
+
 
 .blink {
 	width:15px;
@@ -62,7 +71,7 @@ html, body{
 	border-radius: 50%;
 	border-width: 2px;
 	border-style: solid;
-	border-color: #E25555;
+	border-color: #F5576A;
 	position:absolute;
 	z-index:10;
 	left:-4px;
@@ -74,7 +83,7 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 888px;
@@ -85,7 +94,7 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 928px;
@@ -95,7 +104,7 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 802px;
@@ -105,7 +114,7 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 646px;
@@ -115,7 +124,7 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 542px;
@@ -125,7 +134,7 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 512px;
@@ -135,21 +144,96 @@ html, body{
 	width:10px;
 	height:10px;
 	border-radius: 50%;
-	background-color:#E25555;
+	background-color:#F5576A;
 	z-index:10;
 	position:absolute;
 	margin-left: 574px;
 	margin-top: 128px;
 }
 
-
-@-webkit-keyframes blinker {
-   from { transform: scale(0.5);  }
-   to   { transform: scale(2.0);
-		   opacity:0;}
-  
-
+.rain1{
+	width:40px;
+	height:10px;
+	background-color:#3BB5C6;
+	z-index:10;
+	position:absolute;
+	margin-left: 823.5px;
+	margin-top: 285px;
+	transition:all, 800ms ease;  
+	opacity:0.7;
+	transform:rotate(-120deg);
+	position:fixed;
+	transform-origin:0% 0%;
 }
+
+.rain1:hover {
+
+	height:61px;
+    transition:0.7s;
+	}
+
+.rain2{
+	width:40px;
+	height:10px;
+	background-color:#3BB5C6;
+	z-index:10;
+	position:absolute;
+	margin-left: 819.5px;
+	margin-top: 349px;
+	transition:all, 800ms ease;  
+	opacity:0.6;
+	transform:rotate(-80deg);
+	position:fixed;
+	transform-origin:0% 0%;
+}
+
+.rain2:hover {
+
+	height:146px;
+    transition:0.6s;
+	}
+
+.rain3{
+	width:40px;
+	height:10px;
+	background-color:#3BB5C6;
+	z-index:10;
+	position:absolute;
+	margin-left: 773.5px;
+	margin-top: 397px;
+	transition:all, 800ms ease;  
+	opacity:0.6;
+	transform:rotate(-40deg);
+	position:fixed;
+	transform-origin:0% 0%;
+}
+
+.rain3:hover {
+
+	height:162px;
+    transition:0.6s;
+	}
+
+.rain4{
+	width:40px;
+	height:10px;
+	background-color:#3BB5C6;
+	z-index:10;
+	position:absolute;
+	margin-left: 713.5px;
+	margin-top: 403px;
+	transition:all, 800ms ease;  
+	opacity:0.6;
+	transform:rotate(0deg);
+	position:fixed;
+	transform-origin:0% 0%;
+}
+
+.rain4:hover {
+
+	height:0px;
+    transition:0.6s;
+	}
 
 
 
