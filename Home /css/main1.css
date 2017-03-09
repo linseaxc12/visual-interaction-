@@ -188,6 +188,40 @@ color:white;
 font-weight: normal;
 }
 
+.fullwidth3 h1{
+  color:#656565;
+}
+.fullwidth3 h3{
+  color:#656565;
+}
+
+.fullwidth5 h1{
+  color:#656565;
+}
+.fullwidth5 h3{
+  color:#656565;
+}
+
+.fullwidth3 .button{
+  color:#656565;
+  border-color: #656565;
+}
+
+.fullwidth3 .button:hover{
+  color:#E6E6E6;
+  background: #656565;
+}
+
+.fullwidth5 .button{
+  color:#656565;
+  border-color: #656565;
+}
+
+.fullwidth5 .button:hover{
+  color:#E6E6E6;
+  background: #656565;
+}
+
 .fullwidth3{
   position:relative;
   width: 100%;
