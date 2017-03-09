@@ -41,6 +41,11 @@ html, body{
   background-color: #E6E6E6;
 }
 
+.imgsize{
+  width:350px;
+  height:350px;
+}
+
 .imgrid{
   text-align: center;
   margin: 0 auto;
@@ -54,20 +59,15 @@ html, body{
   left: 0;
   right: 0;
 /*  max-width: 375px;*/
-  width: 300px;
-  border: 1px solid black;
-  height: 300px;
+  width: 350px;
+ 
+  height: 350px;
   text-align: center;
   vertical-align: center;
- /* background: grey;*/
-  border: none;
-  margin: 180px 50px;
-  /*height: 375px;*/
-}
 
-.imgsize{
-  width:350px;
-  height:350px;
+  border: none;
+  margin: 150px 50px;
+  /*height: 375px;*/
 }
 
 .grid2{
@@ -283,7 +283,6 @@ background-color:#E6E6E6;
   margin-left:200px;
   margin-top:300px;
 }
-
 
 
 

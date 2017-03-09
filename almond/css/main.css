@@ -1,12 +1,10 @@
 
-
+*::-webkit-scrollbar { 
+  display: none;
+}
 * {
    font-family: "brandon-grotesque", sans-serif;
 
-}
-
-*::-webkit-scrollbar { 
-  display: none;
 }
 
 html, body{
@@ -16,9 +14,21 @@ html, body{
   background-size:  cover;
 }
 
+h1{
+  color:white;
+  font-family: "brandon-grotesque", sans-serif;
+  letter-spacing:1px;
+  margin-top: 20px;
+  z-index:15;
+}
 
-#headimg{
+.text{
+  z-index:15;
+}
 
+#heading{
+ width:100%;
+ z-index:5;
 }
 
 .fullwidth{
@@ -30,18 +40,35 @@ html, body{
  
 }
 
+.fullwidth2{
+  width: 100%;
+  height:600px;
+  position:relative;
+  background-color: #E6E6E6
+}
 
+.fullwidth3{
+  position:relative;
+  width: 100%;
+  height: auto;
+  background-color: #E6E6E6;
+  z-index:5;
+ 
+}
 
+.fullwidth4{
+  width:100%;
+  height:auto;
+}
 
+.chelsea{
+  font-family: "brandon-grotesque", sans-serif;
+  z-index:10;
+}
 
-
-
-
-
-
-
-
-
+.imgrid{
+  max-width: 750px;
+}
 
 
 @media screen and (max-width: 520px) {
