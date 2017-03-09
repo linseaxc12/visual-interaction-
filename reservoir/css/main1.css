@@ -19,7 +19,7 @@ html, body{
 
 #heading{
   position: relative;
-  background-image: url('../img/MainHeader.png');
+  background-image: url('../assets/img/resheader.png');
   background-position: center center;
   background-repeat: no-repeat;
   /*background-attachment: fixed;*/
@@ -28,6 +28,21 @@ html, body{
   height: 90vh;
   box-shadow: rgba(0,0,0,0.35) 0 10px 10px;
   z-index: 2;
+}
+
+.fullimage{
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  /*background-attachment: fixed;*/
+  background-size:  cover;
+  width: 100%;
+  height: 100vh;
+  /*box-shadow: rgba(0,0,0,0.35) 0 10px 10px;*/
+}
+
+#img1{
+  background-image: url('../assets/img/2.jpg');
 
 }
 
