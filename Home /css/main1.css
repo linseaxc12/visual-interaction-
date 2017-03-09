@@ -65,6 +65,11 @@ html, body{
   /*height: 375px;*/
 }
 
+.imgsize{
+  width:350px;
+  height:350px;
+}
+
 .grid2{
   display: inline-block;
   left: 0;
@@ -278,6 +283,7 @@ background-color:#E6E6E6;
   margin-left:200px;
   margin-top:300px;
 }
+
 
 
 
