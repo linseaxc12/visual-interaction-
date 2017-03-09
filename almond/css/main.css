@@ -45,7 +45,7 @@ html, body{
   position:relative;
   height:700px;
   width: 100%;
- 
+  margin-left:280px;
   background-color: ;
   z-index:5;
  
@@ -72,6 +72,7 @@ h3{
   text-align: center;
 
 }
+
 
 .imgrid{
   max-width: 750px;
