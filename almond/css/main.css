@@ -14,12 +14,14 @@ html, body{
   background-size:  cover;
 }
 
-h1{
+h3{
   color:white;
   font-family: "brandon-grotesque", sans-serif;
   letter-spacing:1px;
-  margin-top: 20px;
+  top: 20px;
   z-index:15;
+  text-align: center;
+
 }
 
 .text{
@@ -44,7 +46,8 @@ h1{
   width: 100%;
   height:600px;
   position:relative;
-  background-color: #E6E6E6
+  background-color: #E6E6E6;
+  margin-top: -30px;
 }
 
 .fullwidth3{
@@ -64,6 +67,7 @@ h1{
 .chelsea{
   font-family: "brandon-grotesque", sans-serif;
   z-index:10;
+  margin-top: 30px;
 }
 
 .imgrid{
